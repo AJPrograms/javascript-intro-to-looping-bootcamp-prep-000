@@ -24,6 +24,7 @@ function doWhileLoop(array) {
   }
   
   do {
+    console.log('doo-bee-doo-bee-doo')
     array.pop();
     
   } while (array.length > 0 && maybeTrue());
